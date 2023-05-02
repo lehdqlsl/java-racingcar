@@ -8,6 +8,7 @@ import java.util.Scanner;
 public class AppMain {
     public static void main(String[] args) {
         // 테스트
+        // 테스트
         InputView inputView = new InputView(new Scanner(System.in));
         String[] cars = inputView.inputCars();
         int numberOfMoves = inputView.inputNumberOfMoves();
